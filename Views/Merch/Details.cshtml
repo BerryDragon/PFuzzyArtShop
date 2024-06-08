@@ -1,0 +1,8 @@
+﻿@model PFuzzyArtShop.Models.Merch
+
+<h1>@Model.Name</h1>
+
+<p>Price: @Model.Price.ToString("C")</p>
+<p>Size: @Model.Size</p>
+
+<a asp-action="AddToCart" asp-route-id="@Model.Id">Add to Cart</a>

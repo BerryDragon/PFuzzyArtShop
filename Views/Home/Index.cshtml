@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    <div class="col-md-6">
+        <a href="@Url.Action("Index", "Merch")">
+            <div class="merch-image">
+                <img src="~/images/Merch.jpg" alt="Merch" class="img-fluid">
+                <div class="image-overlay">
+                    <h3>Merch</h3>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="col-md-6">
+        <a href="/commission">
+            <div class="commission-image">
+                <img src="~/images/Commission.jpg" alt="Commission" class="img-fluid">
+                <div class="image-overlay">
+                    <h3>Commission</h3>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
