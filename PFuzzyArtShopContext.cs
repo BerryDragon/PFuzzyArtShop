@@ -32,3 +32,4 @@ namespace PFuzzyArtShop.Models
         }
     }
 }
+// Remember to add new DB JSON updates from EFOn 9.0
